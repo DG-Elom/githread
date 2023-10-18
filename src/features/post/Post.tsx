@@ -1,5 +1,5 @@
 import React from "react";
-import { PostHome } from "../query/post.query";
+import { PostHome } from "../../query/post.query";
 import { PostLayout } from "./PostLayout";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";

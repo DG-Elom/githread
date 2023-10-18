@@ -3,6 +3,7 @@ import { LoginButton } from "./auth/LoginButton";
 import { ThemeToggle } from "@/src/theme/ThemeToggle";
 import { UserProfile } from "./auth/UserProfile";
 import Link from "next/link";
+import { PostHome } from "@/src/query/post.query";
 
 export const Header = async () => {
   const session = await getAuthSession();
